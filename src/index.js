@@ -37,7 +37,6 @@ function setLocalStorage(e) {
   if (swichTheme.checked) {
     localStorage.setItem('theme', Theme.DARK);
   } else {
-    localStorage.removeItem('theme');
     localStorage.setItem('theme', Theme.LIGHT);
   }
 };
